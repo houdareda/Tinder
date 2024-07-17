@@ -151,7 +151,7 @@ body {
 .hero .frst_text{
   text-align: center;
   color: #410E62;
-  font-size: 4.8vw;
+  font-size: 4.6vw;
   line-height: 1;
 }
 .hero .frst_text h3:first-child{
@@ -166,7 +166,7 @@ body {
   position: relative;
   padding-right: 7px;
   text-align: center;
-  font-size: 5vw;
+  font-size: 4.7vw;
   font-weight: bold;
   line-height: 1.4;
   margin-bottom: 20px;
@@ -429,7 +429,7 @@ body {
 }
 
 .how_work .container .text p{
-  font-size: 4vw;
+  font-size: 3.7vw;
   font-weight: bold;
   margin-bottom: 7px;
   color: #3D2F41;
