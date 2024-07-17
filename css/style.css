@@ -76,7 +76,7 @@ body {
   justify-content: center;
   border-radius: 10px;
   overflow: hidden;
-  width: 80%;
+  width: 70%;
 }
 .div-btn .btn span{
   height: 100%;
@@ -85,7 +85,7 @@ body {
   font-size: 7vw;
   font-weight: bold;
   color: #fff;
-  width: 70%;
+  width: 100%;
 }
 .div-btn .btn .presnt{
   width: 30%;
@@ -437,13 +437,12 @@ body {
 .how_work .container .text p:last-child{
   margin-bottom: 0;
 }
-
-
-
-
-
-
-
+.hero .hero_logo{
+  display: none;
+}
+.hero .product2{
+  display: none;
+}
 
 
 
@@ -871,3 +870,270 @@ body {
     }
   }
   
+
+
+
+  
+@media (min-width:410px) {
+  .how_work .container .text{
+    padding-bottom: 20px;
+  }
+  .how_work .container .text p{
+    margin-bottom: 12px;
+  }
+}
+
+@media (min-width:700px) {
+  .hero .hero_img{
+    width: 65%;
+  }
+  .hero .div_product{
+    width: calc(22% + 27px);
+  }
+  .hero .frst_text{
+    font-size: 3.5vw;
+  }
+  .hero ul li{
+    font-size: 3vw;
+    width: max-content;
+    margin-inline: auto;
+    padding-right: 20px;
+  }
+  .div-btn .btn span{
+    font-size: 28px;
+  }
+  .hero .div-btn .btn{
+    width: 250px;
+  }
+  .div-btn .btn .presnt h5{
+    font-size: 25px;
+  }
+  .div-btn .btn .presnt h6{
+    font-size: 14px;
+  }
+  .div-btn .btn .presnt p{
+    font-size: 9px;
+  }
+
+
+  .result{
+    padding-top: 10px;
+  }
+  .result h3{
+    font-size: 30px;
+  }
+  .result .title h2{
+    font-size: 4.5vw;
+  }
+  .result .title h2::after, .result .title h2::before{
+    width: 34%;
+  }
+  .result .box img{
+    padding: 0 4%;
+  }
+  .result .box .sm_card{
+    height: 120px;
+  }
+  .result .box .sm_card .text h4{
+    font-size: 3.7vw;
+  }
+
+
+  .doctor h2{
+    font-size: 40px;
+
+  }
+  .doctor h4{
+    font-size: 35px;
+  }
+  .doctor ul li{
+    font-size: 25px;
+  }
+  .doctor .img_doc{
+    width: 40%;
+  }
+  .doctor .an_text img{
+    width: 60%;
+  }
+  .doctor .btn{
+    width: 250px;
+  }
+
+
+  .how_work .text h2{
+    font-size: 35px;
+  }
+  .how_work .container .bg_paper{
+    width: 70%;
+    margin: auto;  
+    left: 50%;
+    transform: translateX(-50%);  
+  }
+  .how_work .container .imgsecwork{
+    width: 45%;
+  }
+  .how_work .container .text p{
+    font-size: 2.7vw;
+    margin-bottom: 20px;
+  }
+}
+
+
+@media (min-width:1000px){
+  .hero .div_product{
+    display: none;
+  }
+  .hero .hero_img{
+    display: none;
+  }
+  .hero .hero_logo{
+    display: block;
+    width: 300px;
+    padding: 30px 0 0;
+    margin: 0 auto 40px;
+  }
+  .hero .flex_hero{
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    justify-content: center;
+    gap: 100px;
+  }
+  .hero .product2{
+    display: block;
+    width: 160px;
+  }
+  .hero .frst_text {
+    font-size: 25px;
+  }
+  .hero ul li{
+    font-size: 23px;
+  }
+  .hero .frst_text{
+    margin-bottom: 30px;
+  }
+
+
+  .flex_res{
+    display: flex;
+    justify-content: center;
+
+  }
+  .flex_res .box{
+    width: 50%;
+  }
+  .result .title h2 {
+    font-size: 30px;
+  }
+  .result .title h2::after, .result .title h2::before{
+    width: 30%;
+  }
+  .result .box .sm_card .text h4{
+    font-size: 18px;
+  }
+  .result .box .sm_card .text p{
+    font-size: 13px;
+  }
+
+
+
+
+
+  .container_sec{
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+
+
+
+
+  .doctor {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    align-items: center;
+    padding-right: 20px;
+    width: 50%;
+  }
+
+  .doctor h2{
+    font-size: 28px;
+  }
+  .doctor h4{
+    font-size: 26px;
+  }
+ .doctor .container{
+  width: calc(100% - 45%);
+ }
+  .doctor .img_doc{
+    position: relative;
+    top: 0;
+    left: 0;
+    transform: translateY(0);
+    width: 45%;
+  }
+  .doctor ul{
+    width: 100%;
+  }
+  .doctor ul li{
+    width: max-content;
+    padding: 2px 20px;
+    font-size: 22px;
+  }
+  .doctor .an_text img{
+    width: 100%;
+    margin-top: 50px;
+  }
+  .doctor .div-btn{
+    padding-bottom: 20px;
+  }
+
+
+
+  .how_work{
+    width: 50%;
+  }
+
+  .how_work .container .text p{
+    font-size: 2vw;
+  }
+  .how_work .container .bg_paper {
+    width: 100%;
+  }
+  .how_work .container .imgsecwork{
+    width: 55%;
+  }
+
+  .result .box .sm_card .text .sm_text{
+    width: 32%;
+  }
+
+}
+
+
+@media (min-width:1200px){
+  .how_work .container .bg_paper {
+    width: 93%;
+    margin: 0 auto;
+  }
+}
+@media (min-width:1400px){
+  .how_work .container .bg_paper {
+    width: 85%;
+  }
+  .how_work .container .text p{
+    font-size: 1.7vw;
+  }
+}
+@media (min-width:1600px){
+  .how_work .container .text p{
+    font-size: 1.6vw;
+  }
+  .how_work .container .bg_paper {
+    width: 80%;
+  }
+}
+
+
+
